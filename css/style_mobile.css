@@ -2,61 +2,23 @@
 @media screen and  (max-width: 800px) {
 
     body {
-        padding: 60px 24px 0 24px;
+        padding: 30px 24px 0 24px;
         background-color: #fff;
     }
 
-    .cabecalho__logo {
-        width: 20%;
+    .logo{
+        width: 60%;
+
     }
 
-    .navbar{
-        align-items: center;
-    }
     .menu { 
-        background-color: #f6c9ee;
-        display:none;
-        left: 24px;
-        margin-top: 30px;
-        position:absolute;
-        right: 24px;
-        text-align:center;
-        border-radius: 5px;
-        font-size: 15px;
-
-    }
-    .menu li:hover {
-        transition: 0.2s ease;
-        font-weight: 500;
-        border-bottom: 1px solid #c036aa;
-    }    
-
-    .index {
-        padding: 30px 30px 0;
-    }
-    .menu li + li {
-        margin: 30px;
-    }
-    input[type=checkbox]:checked ~ .menu{
-        display:block;
-    }
-    .hamburger {
-        display: block;
-        color: black;
-        width: px;
-    }
-    .dropdown {
-        left: 50%;
-        top: 30px;
-        transform: translateX(35%);
-    }
-    .dropdown li:hover {
-        background-color: #4c9e9e;
+        display: none;
     }
 
-    .linkedin__botao{
-        height: 42px;
+    .linkedin-botao{
+        width: 80%;
     }
+
 
     .conteudo-principal-escrito-botao{
         border-radius: 11px;

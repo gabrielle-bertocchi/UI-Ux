@@ -5,7 +5,7 @@
 body {
     font-size: 100%;
     color: #33272a;
-    padding: 80px 80px 0 80px;
+    padding: 60px 80px 0 80px;
     background-color: #fff;
     margin: 0;
     font-family: 'menlo';
@@ -26,18 +26,21 @@ ul{
     display: flex;
 }
 
-.navbar {
+.cabecalho {
     display: flex;
     justify-content: space-between;
+    gap: auto;
     color: #fff;
+    align-items: center;
 }
 
 .nav-links a {
     color: #101010;
 }
 
-.cabecalho__logo {
-    width: 10%;
+.logo {
+    flex: 1;
+    width: 80%;
     margin: 0;
     padding: 0;
 }
@@ -48,56 +51,21 @@ ul{
     font-size: 25px;
     letter-spacing: 0.16em;
     font-family: 'Menlo';
-    color: #000;
     display: flex;
-    font-family: 'Menlo';
-    gap: 60px;
-    text-decoration: none;
     align-items: center;
+    flex: 2;
+    justify-content: center;
+    gap: 20px;
 }
 
-.menu li:hover {
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover {
     border-bottom: 1px solid #c036aa;
     color: rgba (236, 214, 196, 0.53);
-}
-
-
-/* MENU SUSPENSO */
-.dropdown {
-    background-color: rgb(202, 199, 199);
-    padding: 1em 0;
-    position: absolute; /*COM RELAÇÃO AOS PAIS*/
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-}
-
-.dropdown li + li {
-    margin-top: 10px;
-}
-.dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-}
-.dropdown li:hover {
-    background-color: #4c9e9e;
-}
-.services:hover .dropdown {
-    display: block;
-}
-
-/* NAVBAR MENU RESPONSIVA*/
-
-/* CHECKBOX HACK */
-input[type=checkbox]{
-    display: none;
-} 
-/*HAMBURGER MENU*/
-.hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
 }
 
 .seta{
@@ -223,7 +191,6 @@ input[type=checkbox]{
 }
 
 
-
 .conteudo-principal-escrito-botao:hover{
     color: rgba (236, 214, 196, 0.53);
     border-radius: 20px;
@@ -237,13 +204,6 @@ input[type=checkbox]{
     font-family: 'Menlo';
     color: #fff;
     text-align: center;
-}
-
-.linkedin__botao{
-    width: 100%;
-    height: 62px;
-    margin: 0;
-    padding: 0;
 }
 
 .skills{
