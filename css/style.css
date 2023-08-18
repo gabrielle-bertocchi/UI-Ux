@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Menlo:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/menlo');
 
   
 body {
@@ -9,52 +9,40 @@ body {
     background-color: #fff;
     margin: 0;
     font-family: 'menlo';
-
 }
+
 
 a {
     text-decoration: none;
     font-size: 18px;
 }
 
-li {
-    list-style: none;
-}
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    gap: auto;
-    color: #fff;
-    align-items: center;
-}
-
-.nav-links a {
-    color: #101010;
+position: fixed;
+background-color: #fff;
+width: 100%;
+display: flex;
+padding: 60px 80px 0 80px;
+box-sizing: border-box;
+align-items: center;
+justify-content: space-between;
+font-size: 25px;
+color: #000;
+font-family: Menlo;
+right: 0;
+top: 0;
+z-index: 999;
 }
 
 .logo {
-    flex: 1;
-    width: 80%;
-    margin: 0;
-    padding: 0;
+    width: 10%;
 }
     
-
-/* NAVBAR MENU */
 .menu {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 900;
     letter-spacing: 0.16em;
-    font-family: 'Menlo';
-    display: flex;
-    align-items: center;
-    flex: 2;
-    justify-content: center;
+    display: inline-block;
     gap: 20px;
 }
 
@@ -87,9 +75,8 @@ ul{
 .aboutMe_title{
     margin: 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 0.03em;
-    font-family: 'menlo';
     color: #000;
     padding-top: 10px;
 }
@@ -99,23 +86,22 @@ ul{
     text-align: center;
     padding-top: 30px;
     font-size: 31px;
-    font-family: 'Menlo';
     color: #000;
     margin: 0;
 }
 
 .conteudo__principal{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     gap: 30px;
+    margin: 90px 0 60px 0;
     padding: 90px 0 60px 0;
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    font-family: 'Menlo';
     gap: 32px;
 }
 .conteudo-principal-escrito h1{
@@ -129,12 +115,12 @@ ul{
     margin: 0;
     letter-spacing: 0.03em;
     color: #c036aa;
+    font-weight: 700;
 }
 
 .ux-ui{
-    font-size: 80px;
+    font-size: 70px;
     letter-spacing: 0.03em;
-    font-family: 'Menlo';
     color: #000;
     margin: 0;
     font-weight: 800;
@@ -143,7 +129,6 @@ ul{
 .texto{
     font-size: 30px;
     letter-spacing: 0.09em;
-    font-family: 'Menlo';
     color: #000;
     text-align: center;
     display: flex;
@@ -154,57 +139,13 @@ ul{
 
 .conteudo__principal__imagem{
     cursor: pointer;
-    display: flex;
-    width: 35%;
+    width: 30%;
 }
 
 .conteudo__principal__imagem:hover{
     transform: scale(1.1);
 }
 
-
-.conteudo-principal-escrito-subtitulo{
-    margin-top: 0px;
-    padding-right: 30px;
-    font-weight: 500;
-    color: black;
-    font-size: 1.80rem;
-}
-
-
-.conteudo-principal-escrito-botao{
-    border: none;
-    font-family: 'Menlo';
-    cursor: pointer;
-    position: relative;
-    border-radius: 11px;
-    background-color: #c036aa;
-    width: 100%;
-    height: 42px;
-    text-align: center;
-}
-
-.botao-add{
-    display: flex;
-    gap: 24px;
-    align-items: center;
-}
-
-
-.conteudo-principal-escrito-botao:hover{
-    color: rgba (236, 214, 196, 0.53);
-    border-radius: 20px;
-    font-weight: 400px;
-    transform: scale(1.1);
-}
-.escrito-botao h1{
-    margin: 0;
-    padding: 0;
-    font-size: 21px;
-    font-family: 'Menlo';
-    color: #fff;
-    text-align: center;
-}
 
 .skills{
     display: flex;
@@ -220,7 +161,6 @@ ul{
     padding: 64px;
     font-size: 25px;
     letter-spacing: 0.16em;
-    font-family: 'Menlo';
     color: #000;
 }
 
@@ -259,16 +199,7 @@ ul{
     }
   }
   
-.projects_title {
-    display: flex;
-    color: black;
-    border-top: 0.9px solid #4e77be;
-    font-weight: 400;
-    font-size: 30px;
-    margin-bottom: 0%;
-    padding: 80px 0 30px 0;
-    text-align: center;
-}
+
 
 .carrossel{
     padding-bottom: 40px;
@@ -284,7 +215,6 @@ ul{
 }
 
 
-
 .project-edit{
     text-align: center;
     color: #101010;
@@ -292,9 +222,20 @@ ul{
 }
 
 .project-edit-p{
+    justify-items: center;
     text-align: center;
     color: aliceblue;
     font-size: 90%;
+}
+
+.projeto-div{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.projeto-a-img{
+    width: 100%;
 }
 
 .projeto-img{
@@ -306,9 +247,8 @@ ul{
     margin: 0;
     padding-top: 10px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 0.03em;
-    font-family: 'menlo';
     color: #000;
 }
 
@@ -322,7 +262,6 @@ footer {
     color: #c036aa;
     text-decoration: none;
     margin: o auto;
-    font-family: 'menlo';
 }
 
 
