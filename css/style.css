@@ -228,11 +228,6 @@ z-index: 999;
     font-size: 90%;
 }
 
-.projeto-div{
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-}
 
 .projeto-a-img{
     width: 100%;
