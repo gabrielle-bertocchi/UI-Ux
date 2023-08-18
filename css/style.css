@@ -37,9 +37,7 @@ ul{
 }
 
 .cabecalho__logo {
-    display: flex;
-    width: 100%;
-    height: 61.39px;
+    width: 10%;
     margin: 0;
     padding: 0;
 }
