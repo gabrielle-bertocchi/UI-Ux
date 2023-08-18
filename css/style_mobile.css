@@ -136,6 +136,7 @@
         flex-direction: column;
         gap: 100px;
         padding: 24px 0 34px 0;
+        flex-direction: column;
     }
     
 
