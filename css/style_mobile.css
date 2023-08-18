@@ -120,23 +120,28 @@
         padding: 0;
     }
     
-    .projeto-div{
-    }
     
     .projeto-img{
         width: 100%;
-        height: 100px;
+        height: 100%;
         border-radius: 10px;
     }
+    .projeto-div{
+        width: 300px;
+        height: 200px;
+    }
+
     
     .swiper-slide{
-        gap: 20px;
+        flex-direction: column;
+        gap: 100px;
         padding: 24px 0 34px 0;
     }
     
 
     .project-edit{
-        font-size: 53%;
+        padding: 10px 0 20px 0;
+        font-size: 80%;
     }
 
     footer{
