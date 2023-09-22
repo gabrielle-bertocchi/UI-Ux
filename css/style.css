@@ -234,8 +234,17 @@ z-index: 999;
 }
 
 .projeto-img{
-    width: 100%;
+    width: 60%;
     border-radius: 10px;
+}
+.projeto-div{
+    justify-items: center;
+    justify-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 90%;
+
+
 }
 
 .carrossel__titulo{
